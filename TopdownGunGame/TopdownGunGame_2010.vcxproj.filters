@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{f22ea5ff-b5e9-476c-99ca-ee0a442ff0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{cc880547-58d4-49c6-8aa5-bed2b10d3464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componenet">
+      <UniqueIdentifier>{24087009-d5fd-4c9f-89ee-0a0f5f90cb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{365648d0-2a3d-49df-b131-59517d640d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{ad4842f5-43ad-4b21-a6b8-81d463681264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componenet\BoxCollider2D">
+      <UniqueIdentifier>{b2546914-7589-4569-9a1e-ab70fc167989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componenet\Camera">
+      <UniqueIdentifier>{56fe1ea1-0bab-43dc-b126-6af565f579d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componenet\Rigidbody">
+      <UniqueIdentifier>{26f67d96-40f5-49d1-ac00-048e2f6c864c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componenet\SpriteRenderer">
+      <UniqueIdentifier>{244742ba-6653-481f-9407-0700458ee2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componenet\TexVertexRenderer">
+      <UniqueIdentifier>{a22a0f2d-3421-4620-b71d-d63e1aa2391c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componenet\Transform">
+      <UniqueIdentifier>{9c96f79e-f0c3-438e-b521-b1de50d4962a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet">
+      <UniqueIdentifier>{2d553a50-b9a2-43a6-92bc-77f38ea925e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Camera">
+      <UniqueIdentifier>{1d89ec2a-b7bf-494d-884d-404730f240a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character">
+      <UniqueIdentifier>{919895f7-c525-4e6c-901c-c884e9cc07ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Tile">
+      <UniqueIdentifier>{703a9528-8b40-4864-8c54-e80794fbee75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map">
+      <UniqueIdentifier>{16c72041-c471-4e90-9ad1-d0095932a083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MainProc">
+      <UniqueIdentifier>{da6589f1-df83-4681-8d50-0867bac4db8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MainScene">
+      <UniqueIdentifier>{2ade433f-85d3-4b20-90d5-e8decf275289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\SceneManager">
+      <UniqueIdentifier>{41c936e6-7a96-42e7-92e2-447bb465eef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\DataManager">
+      <UniqueIdentifier>{a49a9fd9-4938-48d4-8c25-220970658a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\TimeManager">
+      <UniqueIdentifier>{3a9e5f13-48a7-4dd6-9e4d-e53e12799416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\InputManager">
+      <UniqueIdentifier>{0d7ddd94-fe8f-4051-9984-c78ed80a754e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\ObjectManager">
+      <UniqueIdentifier>{b4cb4078-b517-4b39-b4a2-463b2761a0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\SoundManager">
+      <UniqueIdentifier>{cb49cc51-dc7e-496c-a7cf-5794c6cab5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\TextManager">
+      <UniqueIdentifier>{f8361fcf-6702-4b26-b46e-3fc17ad688ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TopdownGunGame.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Componenet</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Boxcollider2d.cpp">
+      <Filter>Componenet\BoxCollider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Componenet\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Componenet\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Componenet\SpriteRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TexVertexRenderer.cpp">
+      <Filter>Componenet\TexVertexRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Componenet\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera01.cpp">
+      <Filter>Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaps.cpp">
+      <Filter>Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProc.cpp">
+      <Filter>Scenes\MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scenes\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Singleton\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Singleton\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTime.cpp">
+      <Filter>Singleton\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Singleton\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Singleton\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Singleton\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Singleton\TextManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Componenet</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Boxcollider2d.h">
+      <Filter>Componenet\BoxCollider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Componenet\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Componenet\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Componenet\SpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TexVertexRenderer.h">
+      <Filter>Componenet\TexVertexRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Componenet\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera01.h">
+      <Filter>Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaps.h">
+      <Filter>Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProc.h">
+      <Filter>Scenes\MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scenes\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Singleton\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Singleton\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTime.h">
+      <Filter>Singleton\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Singleton\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Singleton\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Singleton\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Singleton\TextManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="TopdownGunGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
